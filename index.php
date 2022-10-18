@@ -95,3 +95,31 @@ function combineSimilarRecords(&$array){
   }
   print_r(($array));
 }
+
+<?php
+// const choices = [
+//   "Main Category" => [
+//     "clothing-textile" => "Clothing & Textile",
+//     "eat-drink" => "Eat & Drink",
+//     "living-working" => "Living & Working",
+//     "energy-electronics" => "Energy & Electronics",
+//     "wellness-beauty" => "Wellness & Beauty",
+//   ],
+//   "Sub Category" => [
+//     "bio" => "Bio",
+//     "veg" => "Vegan",
+//     "fair" => "Fair",
+//     "rec" => "Recycled",
+//     "soc" => "Social",
+//   ],
+//   [
+    
+//   ]
+// ];
+
+$array = [
+  1,2,3,4 
+];
+
+array_splice($array, 0, 1);
+print_r($array);
